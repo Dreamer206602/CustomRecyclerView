@@ -13,23 +13,32 @@
         android:orientation="vertical">
 
         <com.mx.customrecyclerview.CustomeRecyclerView
-            android:layout_margin="20dp"
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="200dp"
+            android:layout_margin="20dp"/>
 
         <com.mx.customrecyclerview.CustomeRecyclerView
-            android:layout_margin="20dp"
             android:id="@+id/recyclerView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
+            android:layout_height="200dp"
+            android:layout_margin="20dp"/>
 
         <com.mx.customrecyclerview.CustomeRecyclerView
-            android:layout_margin="20dp"
             android:id="@+id/recyclerView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="200dp"
+            android:layout_margin="20dp"/>
+        <com.mx.customrecyclerview.CustomeRecyclerView
+        android:id="@+id/recyclerView4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"/>
+        <com.mx.customrecyclerview.CustomeRecyclerView
+            android:id="@+id/recyclerView5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"/>
 
 
     </LinearLayout>
